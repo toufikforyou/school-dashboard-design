@@ -1,0 +1,21 @@
+$(document).ready(function(){        
+  // Site Bar Menu Dropdown
+    $("#student_style").click(function(){
+      $(".student_menu").slideToggle("slow");
+    });
+    $("#teacher_style").click(function(){
+      $(".teacher_menu").slideToggle("slow");
+    });
+    $("#result_style").click(function(){
+      $(".result_menu").slideToggle("slow");
+    });
+    $("#post_style").click(function(){
+      $(".post_menu").slideToggle("slow");
+    });        
+    $("#tootls_style").click(function(){
+      $(".tootls_menu").slideToggle("slow");
+    });
+    $(".bar").click(function(){
+      $("#sitebar-section").slideToggle("slow");
+    });
+});

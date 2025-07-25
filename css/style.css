@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.header-digain {
+  width: 100%;
+  background: #18303c;
+}
+.table-responsive {
+  overflow-x: auto;
+  font-size: 12px;
+}
+.menu {
+  width: 100%;
+  padding: 0 0 0 15px;
+}
+.logo {
+  width: 30%;
+  display: inline-block;
+  /*float: left;
+    text-align: center;*/
+}
+.logo img {
+  width: 60px;
+}
+.bar {
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+.fa-align-justify {
+  color: white;
+  font-size: 20px;
+  margin: 12px;
+}
+.profile {
+  width: 60%;
+  float: right;
+}
+.admin-area {
+  float: right;
+  margin-right: 20px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.icon {
+  float: left;
+  font-size: 20px;
+}
+.photo {
+  display: inline-block;
+  padding: 0px 10px 0px 5px;
+  margin-top: -5px;
+}
+.photo img {
+  width: 30px;
+  border-radius: 50px;
+}
+.admin-name {
+  margin: 4px;
+}
+.admin-name span {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.admin {
+  margin-left: 20px;
+}
+.dropdown-item:hover {
+  background: #2960c5;
+}
+.note_heading {
+  border-bottom: 1px solid #ddd;
+  background: #ff5722;
+  padding: 5px;
+}
+.note_heading span {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.note_details {
+  padding: 10px 10px;
+  height: 250px;
+  overflow-x: auto;
+}
+.note_item {
+  background: #808080;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.note_item_dts {
+  font-size: 15px;
+  padding: 5px 5px;
+  color: white;
+  transition: 0.5s;
+  text-align: justify;
+}
+.note_item_dts:hover {
+  background: #00bcd4e8 !important;
+  border-radius: 3px;
+}
+/*section 2 or sitebar menu */
+
+#body-contant {
+  width: 100%;
+  /*
+    margin-top: -6px;
+    */
+}
+#sitebar-section {
+  width: 25%;
+  float: left;
+  background: #38525f;
+}
+.teacher_menu {
+  display: none;
+}
+.sitebar-item ul {
+  margin: 0;
+  padding: 0;
+}
+.sitebar-item ul a {
+  text-decoration: none;
+}
+.sitebar-item ul li {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  background: #313e4a;
+  border-bottom: 1px solid #757575;
+  transition: 0.4s all;
+}
+.sitebar-item ul li:hover {
+  background: #2960c5;
+}
+.sitebar-item ul li span {
+  margin: 5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+#icon-style {
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  margin-right: 5px;
+}
+#drp_list {
+  background: #159625;
+}
+#drp_list:hover {
+  background: #3b5fa2;
+}
+/*thard section*/
+#dashboard_digain {
+  width: 75%;
+  float: right;
+}
+.dashboard_name {
+  text-transform: uppercase;
+  background: #e5e5e5;
+  padding: 10px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.text-blue {
+  color: #3afe;
+}
+.drak {
+  background: black;
+}
+.card {
+  margin-bottom: 35px;
+  box-shadow: 0 10px 20px 0 rgb(26 44 57 / 14%);
+  border: none;
+}
+/*modal css*/
+.modal-dialog {
+  max-width: 90%;
+}
+.profile-img {
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  width: 100%;
+}
+.profile-img:hover .overlay {
+  height: 50%;
+  cursor: pointer;
+}
+.file-input {
+  color: #333;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+img#proFile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 3px solid green;
+  border-radius: 50%;
+  padding: 10px;
+}
+#camera {
+  color: white;
+}
+.prifile-area {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  border: 1px solid red;
+}
+#preview-img {
+  display: block;
+  max-width: 100%;
+}
+.found_result {
+  padding: 0px 30px;
+}
+.result-header {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+.logoImg {
+  width: 100%;
+  padding-left: 25px;
+}
+.logoImg img {
+  width: 100px;
+  float: left;
+}
+.schoolName {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: green;
+  font-weight: 700;
+  text-align: center;
+}

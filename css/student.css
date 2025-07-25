@@ -1,0 +1,90 @@
+@import url("https://fonts.maateen.me/bangla/font.css");
+.contant_header {
+  margin: 10px;
+  font-family: "Bangla", Arial, sans-serif !important;
+}
+.contant_icon_name {
+  background: #70ca6a;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+}
+/*New Student*/
+.form-box {
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 1px 5px 1px #756767;
+}
+.header-student {
+  background: #fbf8f8;
+  padding: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid;
+}
+.form-contant {
+  padding: 10px;
+}
+.br {
+  padding: 10px;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 1px rgb(13 110 253 / 10%);
+}
+/*Btn Style*/
+.battun-class {
+  margin-top: 30px;
+  text-align: center;
+}
+.battun-custom {
+  padding: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  transition: 0.5s ease-in-out;
+  background: green;
+  color: white;
+}
+.battun-custom:focus {
+  outline: none;
+}
+.battun-custom::after {
+  content: "";
+  position: absolute;
+  background: blue;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+.battun-custom:hover::after {
+  width: 100%;
+}
+.hide {
+  transition: 0.5s ease-in-out;
+  display: none;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.error span {
+  border-bottom: 1px solid green;
+  font-weight: 600;
+}
+.alert-msg {
+  margin-top: 5px;
+  background: #bfbfbf;
+  padding: 5px;
+  border-radius: 5px;
+  color: red;
+  font-weight: 600;
+}
